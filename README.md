@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Shop App / App de Compras
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/KlevertonOliveira/ShopApp---ReactJS/blob/master/LICENSE)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the project / Sobre o projeto
 
-## Available Scripts
+https://klev-oliveira-shopapp.netlify.app/
 
-In the project directory, you can run:
+Shop App is a Front End application created with the objective of practicing the development of web applications using the ReactJS library. The application is inspired on the project called Cart by John Smilga in his course called Full React Course 2020.
 
-### `yarn start`
+The project consists of a list of items (to be purchased) that can be handled by the user with actions ranging from changing the quantity of a certain item to removing it, always taking into account that such changes have a direct impact on the total price of the purchase to be made.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+///
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Shop App / App de Compras é uma aplicação Front End criada com o objetivo de praticar o desenvolvimento de aplicações web utilizando a biblioteca ReactJS. A aplicação é inspirada no projeto denominado Cart de John Smilga em seu curso denominado Full React Course 2020.
 
-### `yarn test`
+O projeto consiste em uma lista de itens (a serem comprados) que podem ser manipulados pelo usuário no que tange a alteração da quantidade de determinado item ou a remoção do mesmo, sempre levando em consideração que tais alterações possuem impacto direto no preço total da compra a ser efetuada.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Layout web
+![](assets/shopApp-main.png)
 
-### `yarn build`
+# Technologies Used / Tecnologias utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Front end
+- HTML5
+- CSS3
+- JS ES6
+- ReactJS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Deployment in production / Implantação em produção
+- Front end web: Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#  How to run the project / Como executar o projeto
 
-### `yarn eject`
+Prerequisites / Pré-requisitos: npm / yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clone repository / Clonar repositório
+git clone https://github.com/KlevertonOliveira/ShopApp---ReactJS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Enter the project folder / Entrar na pasta do projeto
+cd shop-app---ReactJS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install dependencies / Instalar dependências
+yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Run the project / Executar o projeto
+yarn start
+```
 
-## Learn More
+# Author / Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+José Kleverton Yvens Oliveira
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://www.linkedin.com/in/kleverton-oliveira-1393ba1b8/
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
