@@ -1,0 +1,58 @@
+:root{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 0 4rem;
+  background-color: lighten(#e6e6ff, 5%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h2, h3, h4, p, button{
+  letter-spacing: 2px;
+}
+
+.container{
+  width: 60vw;
+  max-width: 70.5rem;
+  margin: 0 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+$nav-bg-color: #201f2e;
+$white: #f7f7f7;
+$remove-button-color: #9999ff; 
+$amount-button-color: #b3b3ff;
+$item-amount-color: #6666ff;
+
+@mixin mainButtonConfig($color){
+  color: $color;
+  background-color: #fff;
+  text-transform: uppercase;
+  padding: .5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1.05rem;
+  border: 1px solid $color;
+  transition: 0.5s linear background-color;
+  cursor: pointer;
+  outline: none;
+
+  &:hover{
+    background-color: $color;
+    color: #fff;
+  }
+}

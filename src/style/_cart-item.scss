@@ -1,0 +1,83 @@
+@import 'configs';
+
+.cart-item{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+
+  &__content{
+    display: flex;
+  }
+
+  &__image{
+
+    img{
+      height: 5rem;
+      width: 5rem;
+      object-fit: cover;
+    }
+  }
+
+  &__info{
+    margin-left: 1rem;
+
+    h4, p, button{
+      margin: 0 0 .5rem;
+      text-transform: capitalize;
+    }
+
+    p{
+      color: $item-amount-color;
+      font-weight: bold;
+    }
+
+    .remove-btn{
+      color: $remove-button-color;
+      background-color: $white;
+      font-weight: bold;
+      border: none;
+      outline: none;
+      transition: 0.5s linear background-color;
+      cursor: pointer;
+      
+      &:hover{
+        background-color: $remove-button-color;
+        color: $white;
+      }
+    }
+  }
+  
+  &__amount{
+    margin-left: 2rem;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .amount-btn{
+      font-size: .75rem;
+      margin: 0;
+      padding: .25rem .5rem;
+      width: 2rem;
+      border: none;
+      outline: none;
+      background-color: $amount-button-color;
+      color: $white;
+      cursor: pointer;
+      transition: 0.5s linear background-color;
+      
+      &:hover{
+        background-color: $white;
+        color: $amount-button-color;
+        border: 1px solid $amount-button-color;
+      }
+    }
+
+    .amount{
+      margin: .5rem 0;
+      padding: 0;
+    }
+  }
+
+}

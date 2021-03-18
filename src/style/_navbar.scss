@@ -1,0 +1,43 @@
+@import 'configs';
+
+.nav{
+
+  background-color: $nav-bg-color;
+
+  &-content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &-title{
+    color: $white;
+    font-size: 1.25rem;
+  }
+
+  .icon{
+    color: $white;
+    font-size: 2.25rem;
+    margin-right: 10px;
+  }
+
+  .amount-container{
+    top: .6rem;
+    right: -.25rem;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 27.5px;
+    width: 27.5px;
+    border-radius: 50%;
+    background-color: green;
+  }
+
+  .total-amount{
+    color: $white;
+    font-size: 1.1rem;
+  }
+}
