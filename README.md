@@ -8,8 +8,8 @@
 
 ---
 
-[Project Presentation](https://klev-oliveira-shopapp.netlify.app/) /
-[Apresentação do Projeto](https://klev-oliveira-shopapp.netlify.app/)
+[Project Presentation](https://klevoliveira-shopapp.netlify.app/) /
+[Apresentação do Projeto](https://klevoliveira-shopapp.netlify.app/)
 
 ---
 
