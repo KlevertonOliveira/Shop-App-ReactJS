@@ -1,6 +1,10 @@
 # Shop App / App de Compras
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/KlevertonOliveira/Shop-App-ReactJS/blob/master/LICENSE)
 
+---
+
+## :art: Layout web
+![Alt Text](assets/shopApp.gif)
 
 ---
 
