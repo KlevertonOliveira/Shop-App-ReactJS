@@ -1,39 +1,32 @@
-# Profile Card App / App de Cartão de Perfil
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/KlevertonOliveira/Profile-Card-App-ReactJS/blob/master/LICENSE)
-
----
-
-## :art: Layout web
-![Alt Text](assets/shopApp.gif)
-
+# Shop App / App de Compras
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/KlevertonOliveira/Shop-App-ReactJS/blob/master/LICENSE)
 
 
 ---
 
-[Project Presentation](https://klevoliveira-profilecard.netlify.app/) /
-[Apresentação do Projeto](https://klevoliveira-profilecard.netlify.app/)
+[Project Presentation](https://klevoliveira-shopapp.netlify.app/) /
+[Apresentação do Projeto](https://klevoliveira-shopapp.netlify.app/)
 
 ---
 
 ## :mag_right: About the project / Sobre o projeto
 
-ProfileCardApp is a Front End application created with the objective of practicing the development of web applications using the ReactJS library. The application is inspired both on the project called Random Person by John Smilga in his course called Full React Course 2020, as well as in the project idea called Profile Card Component by the Frontend Mentor website.
+Shop App is a Front End application created with the objective of practicing the development of web applications using the ReactJS library. The application is inspired on the project called Cart by John Smilga in his course called Full React Course 2020.
 
-The project consists of a card that displays a person's profile, allowing the user to visualize different informations, which are fetched through an API called randomuserapi. The user can choose what information he/she wants to see by hovering a given icon on the card and can also choose to see another profile by clicking on the 'Next Profile' button.
-
----
-
-ProfileCardApp é uma aplicação Front End criada com o objetivo de praticar o desenvolvimento de aplicações web utilizando a biblioteca ReactJS. A aplicação é inspirada no projeto denominado Random Person de John Smilga em seu curso denominado Full React Course 2020, bem como na ideia de projeto chamada Profile Card Component do site Frontend Mentor.
-
-O projeto consiste em um cartão que exibe o perfil de uma pessoa, permitindo ao usuário visualizar diferentes informações, que são obtidas por meio de uma API chamada randomuserapi. O usuário pode escolher quais informações deseja ver passando o mouse sobre um determinado ícone no cartão e também pode escolher ver outro perfil clicando no botão 'Próximo Perfil'.
+The project consists of a list of items (to be purchased) that can be handled by the user with actions ranging from changing the quantity of a certain item to removing it, always taking into account that such changes have a direct impact on the total price of the purchase to be made.
 
 ---
 
-## :gear: Technologies Used / Tecnologias utilizadas
+Shop App / App de Compras é uma aplicação Front End criada com o objetivo de praticar o desenvolvimento de aplicações web utilizando a biblioteca ReactJS. A aplicação é inspirada no projeto denominado Cart de John Smilga em seu curso denominado Full React Course 2020.
+
+O projeto consiste em uma lista de itens (a serem comprados) que podem ser manipulados pelo usuário no que tange a alteração da quantidade de determinado item ou a remoção do mesmo, sempre levando em consideração que tais alterações possuem impacto direto no preço total da compra a ser efetuada.
+
+---
 
 ### Front end
 - HTML5
 - CSS3
+- JS ES6
 - Javascript ES6
 - ReactJS
 
@@ -43,10 +36,10 @@ Prerequisites / Pré-requisitos: npm / yarn
 
 ```bash
 # Clone repository / Clonar repositório
-git clone https://github.com/KlevertonOliveira/Profile-Card-App-ReactJS.git
+git clone https://github.com/KlevertonOliveira/Shop-App-ReactJS.git
 
 # Enter the project folder / Entrar na pasta do projeto
-cd Profile-Card-App-ReactJS
+cd Shop-App-ReactJS
 
 # Install dependencies / Instalar dependências
 yarn install
@@ -60,4 +53,3 @@ yarn start
 José Kleverton Yvens Oliveira
 
 https://www.linkedin.com/in/kleverton-oliveira/
-
