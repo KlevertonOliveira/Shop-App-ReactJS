@@ -29,7 +29,7 @@ O projeto consiste em uma lista de itens (a serem comprados) que podem ser manip
 
 ### Front end
 - HTML5
-- CSS3
+- SASS (CSS3)
 - JS ES6
 - Javascript ES6
 - ReactJS
