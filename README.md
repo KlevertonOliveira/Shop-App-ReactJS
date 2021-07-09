@@ -43,10 +43,10 @@ Prerequisites / Pré-requisitos: npm / yarn
 
 ```bash
 # Clone repository / Clonar repositório
-git clone https://github.com/KlevertonOliveira/ShopApp---ReactJS
+git clone https://github.com/KlevertonOliveira/Shop-App-ReactJS.git
 
 # Enter the project folder / Entrar na pasta do projeto
-cd shop-app---ReactJS
+cd Shop-App-ReactJS
 
 # Install dependencies / Instalar dependências
 yarn install
